@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Portfolio - Ram Tyron</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        background-color: #000000;
+        /* Pure Black Background */
+        color: #ffffff;
+        /* White Text para sa buong body */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Profile Card (Left Side) */
+    .profile-card {
+        background-color: #ffffff;
+        /* White Card */
+        color: #000000;
+        /* Black text sa loob ng white card */
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+    }
+
+    .profile-card img {
+        border: 5px solid #000000;
+        margin-bottom: 20px;
+    }
+
+    .role {
+        color: #555;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    /* Navigation Bar */
+    .navbar {
+        background-color: #1a1a1a;
+        /* Dark gray/black nav */
+        border-radius: 15px;
+    }
+
+    .nav-link {
+        color: #ffffff !important;
+        font-weight: 500;
+    }
+
+    .nav-link:hover {
+        color: #cccccc !important;
+    }
+
+    /* Main Content Card (Right Side) */
+    .main-card {
+        background-color: #ffffff;
+        /* White Card */
+        color: #000000;
+        /* Black text */
+        padding: 40px;
+        border-radius: 20px;
+    }
+
+    .section-title {
+        border-bottom: 3px solid #000000;
+        display: inline-block;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    /* Skills Cards */
+    .info-card {
+        background-color: #f8f9fa;
+        /* Light gray background */
+        border: 1px solid #000000;
+        /* Black border */
+        padding: 20px;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    .info-card:hover {
+        background-color: #000000;
+        color: #ffffff;
+    }
+</style>
+
+<body>
+
+    <div class="container py-5">
+        <div class="row">
+
+
+            <div class="col-md-4 mb-4">
+                <div class="profile-card text-center">
+                    <img src="https://i.pinimg.com/736x/3f/8e/89/3f8e8942e530ebf2b95d386d008b6b4d.jpg" alt="Ram Tyron M. Merjilla" class="img-fluid rounded-circle mb-3"
+                        style="width: 200px; height: 200px; object-fit: cover;">
+
+                    <h4>Ram Tyron M. Merjilla</h4>
+                    <p class="role">STUDENT ATHLETE</p>
+
+                    <hr>
+
+                    <p><strong>Email</strong><br>ramtyronm@gmail.com</p>
+                    <p><strong>Phone</strong><br>Secret no clue</p>
+                    <p><strong>Location</strong><br>Calamba, Laguna</p>
+                </div>
+            </div>
+
+
+            <div class="col-md-8">
+
+
+                <nav class="navbar navbar-expand px-4 mb-4">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">CV</a>
+                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#">Contact</a>
+                    </div>
+                </nav>
+
+
+                <div class="main-card">
+                    <h2 class="section-title">About Me</h2>
+
+                    <p>
+                        Hi! I'm a Student Athlete and an IT student balancing school and training.
+                        It's challenging, but I stay committed both my studies and my sport.
+                    </p>
+
+                    <p>
+                        Currently, I'm focusing on improving my skills in IT while keeping up
+                        with my training schedule.
+                    </p>
+
+                    <h3 class="section-title mt-4">Skills</h3>
+
+                    <div class="row g-4 mt-2">
+
+                        <div class="col-md-6">
+                            <div class="info-card">
+                                <h5>Basic Programming</h5>
+                                <p>I understand the fundamentals of coding and can create simple programs.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="info-card">
+                                <h5>Basic Web Development</h5>
+                                <p>I can build simple and responsive websites using HTML and CSS.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
