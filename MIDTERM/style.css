@@ -1,0 +1,46 @@
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.navbar-brand span {
+    color: #333;
+}
+
+/* Card Styling */
+.meal-card {
+    cursor: pointer;
+    border: 1px solid #f0f0f0;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.meal-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+    border-color: #0d6efd;
+}
+
+.meal-img {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Modal Styling */
+.modal-main-img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.instruction-full {
+    line-height: 1.8;
+    white-space: pre-line; /* Preserves line breaks from the API */
+    color: #444;
+}
+
+#searchInput:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
